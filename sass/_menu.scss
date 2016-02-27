@@ -1,0 +1,27 @@
+.menu-lateral {
+    background: $rojo;
+    height: 100vh;
+    padding: 0;
+    nav ul{
+        .menu-l-activo {
+            font-weight: bold;
+            background: $rojo_gris;
+        }
+        li {
+
+            width: 100%;
+            line-height: 3em;
+            text-align: center;
+            height: 3em;
+
+            a {
+                display: block;
+                height: 100%;
+                width: 100%;
+            }
+            &:hover {
+                background: $rojo_gris;
+            }
+        }
+    }
+}

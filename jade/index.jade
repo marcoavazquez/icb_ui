@@ -1,0 +1,25 @@
+doctype html5
+
+html(lang='es')
+    head
+        title Marco Antonio
+        meta(charset="utf-8")
+        mena(name="viewport" content="width=device-width, user-scalable=no")
+        link(rel="stylesheet" href="css/app.css")
+        link(href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css')
+
+body
+    section.main-content.ed-container
+        header.ed-item
+            include header.jade
+            
+        section.menu-lateral.ed-item.tablet-15
+            
+            include menu_lateral.jade
+            
+        section.content.ed-item.tablet-85
+            
+            include content.jade
+            
+        footer.ed-item
+            include footer.jade

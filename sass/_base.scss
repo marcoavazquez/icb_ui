@@ -1,0 +1,17 @@
+body {
+    font-size: 16px;
+    font-family: ubuntu;
+}
+.ed-container {
+    max-width: $max_width;
+}
+input {
+    border:none;
+    border: 1px solid #AAA;
+    padding-left: 1em;
+    line-height: 2em;
+}
+
+.content {
+    padding: 0;
+}

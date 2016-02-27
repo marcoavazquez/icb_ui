@@ -1,0 +1,39 @@
+/**
+* framework ED-Grid para construir los layouts */
+@import "ed-grid/ed-grid.scss";
+/**
+
+
+* Variables, como paletas de colores */
+@import "vars.scss";
+
+/**
+* Normalizr.css */
+@import "normalize.scss";
+
+/**
+* estilos base para todo el sitio */
+@import "base.scss";
+
+/**
+* estilos para el encabezado */
+@import "header.scss";
+
+/**
+* estilos para los menues*/
+@import "menu.scss";
+
+/**
+* estilos para el resto del contenido */
+@import "content.scss";
+
+/**
+* estilos para el footer */
+@import "footer.scss";
+
+/**
+* contiene las fuentes e ico-fonts a usar */
+@import "fonts.scss";
+
+
+@import "../fonts/styles.css";

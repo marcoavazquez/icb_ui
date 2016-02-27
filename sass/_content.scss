@@ -1,0 +1,27 @@
+.cont-content {
+    padding: 0;
+}
+
+.cont-pestanas {
+    padding: 0;
+    background: #DADADA;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+}
+.pestana {
+    color: #333;
+    background: #AAA;
+    width: 12em;
+    height: 100%;
+    border-right: 1px solid #888;
+    cursor: pointer;
+    &:hover {
+        background: #A5A5A5;
+    }
+}
+.pest-activa {
+    background: white;
+    color: #333;
+    font-weight: bold;
+}
