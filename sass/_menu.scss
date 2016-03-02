@@ -1,7 +1,12 @@
 .menu-lateral {
+    font-size: $font_size_menu_lateral;
     background: $rojo;
     height: 100vh;
     padding: 0;
+    width: 6rem;
+    position: fixed;
+    left: 0;
+    margin-top: 3.5rem;
     nav ul{
         .menu-l-activo {
             font-weight: bold;

@@ -2,6 +2,11 @@
     padding: 0;
 }
 
+.content {
+    margin-left: 6rem;
+    width: 100%;
+}
+
 .cont-pestanas {
     padding: 0;
     background: #DADADA;
@@ -24,4 +29,41 @@
     background: white;
     color: #333;
     font-weight: bold;
+    &:hover {
+        background: white;
+    }
+}
+
+form {
+    margin: 1em;
+    padding: 1em;
+}
+
+.btn-principal {
+    border:none;
+    @include button(#00AA00, white, radius);
+}
+
+.btn-danger {
+    border:none;
+    @include button(#AA0000, white, radius);
+}
+
+.btn-accion {
+    @include button(#5555AA, white, radius);
+}
+
+input[type="file"] {
+    width: 8rem;
+    display: inline-block;
+    position: relative;
+    border: none;
+    &:before {
+
+        @include button(#AA5500, white, radius);
+        content: 'upload';
+        position: absolute;
+        width: 100%;
+        left: 0;
+    }
 }
