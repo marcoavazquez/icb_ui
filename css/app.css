@@ -3129,7 +3129,7 @@ th {
 /**
 * estilos base para todo el sitio */
 body {
-  font-size: 16px;
+  font-size: 14px;
   font-family: ubuntu;
 }
 
@@ -3146,6 +3146,7 @@ input {
 
 .content {
   padding: 0;
+  width: auto;
 }
 
 /**
@@ -3203,9 +3204,14 @@ ul li a {
 /**
 * estilos para los menues*/
 .menu-lateral {
+  font-size: 0.8rem;
   background: #ed3951;
   height: 100vh;
   padding: 0;
+  width: 6rem;
+  position: fixed;
+  left: 0;
+  margin-top: 3.5rem;
 }
 
 .menu-lateral nav ul .menu-l-activo {
@@ -3236,6 +3242,11 @@ ul li a {
   padding: 0;
 }
 
+.content {
+  margin-left: 6rem;
+  width: 100%;
+}
+
 .cont-pestanas {
   padding: 0;
   background: #DADADA;
@@ -3261,6 +3272,104 @@ ul li a {
   background: white;
   color: #333;
   font-weight: bold;
+}
+
+.pest-activa:hover {
+  background: white;
+}
+
+form {
+  margin: 1em;
+  padding: 1em;
+}
+
+.btn-principal {
+  border: none;
+  display: inline-block;
+  line-height: 2.5em;
+  background: #00AA00;
+  color: white;
+  padding: 0 1.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border-radius: .25em;
+}
+
+.btn-principal:hover {
+  background: #009000;
+}
+
+.btn-principal:active {
+  transform: scale(0.97);
+}
+
+.btn-danger {
+  border: none;
+  display: inline-block;
+  line-height: 2.5em;
+  background: #AA0000;
+  color: white;
+  padding: 0 1.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border-radius: .25em;
+}
+
+.btn-danger:hover {
+  background: #900000;
+}
+
+.btn-danger:active {
+  transform: scale(0.97);
+}
+
+.btn-accion {
+  display: inline-block;
+  line-height: 2.5em;
+  background: #5555AA;
+  color: white;
+  padding: 0 1.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border-radius: .25em;
+}
+
+.btn-accion:hover {
+  background: #4d4d99;
+}
+
+.btn-accion:active {
+  transform: scale(0.97);
+}
+
+input[type="file"] {
+  width: 8rem;
+  display: inline-block;
+  position: relative;
+  border: none;
+}
+
+input[type="file"]:before {
+  display: inline-block;
+  line-height: 2.5em;
+  background: #AA5500;
+  color: white;
+  padding: 0 1.5em;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border-radius: .25em;
+  content: 'upload';
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+
+input[type="file"]:before:hover {
+  background: #904800;
+}
+
+input[type="file"]:before:active {
+  transform: scale(0.97);
 }
 
 /**
