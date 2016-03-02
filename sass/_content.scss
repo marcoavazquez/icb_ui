@@ -9,28 +9,27 @@
 
 .cont-pestanas {
     padding: 0;
-    background: #DADADA;
+    background: #DDDDDD;
     height: 2em;
     line-height: 2em;
     text-align: center;
 }
 .pestana {
     color: #333;
-    background: #AAA;
+    background: #BBB;
     width: 12em;
     height: 100%;
-    border-right: 1px solid #888;
     cursor: pointer;
     &:hover {
-        background: #A5A5A5;
+        background: #CFCFCF;
     }
 }
 .pest-activa {
-    background: white;
+    background: $background_body;
     color: #333;
     font-weight: bold;
     &:hover {
-        background: white;
+        background: $background_body;
     }
 }
 
