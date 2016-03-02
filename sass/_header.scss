@@ -1,7 +1,6 @@
 header {
-    background: $turquesa;
+    background: $background_menu_seccion;
     height: 4em;
-    box-shadow: 0px 2px 3px #999;
     margin: 0;
     padding: 0;
     z-index: 500;
@@ -32,14 +31,14 @@ ul {
     height: 100%;
     nav {
         font-size: 2em;
-        color: $rojo;
+        color: $gris_claro;
         box-sizing: border-box;
     }
 }
 .cont-bread {
     height: 100%;
     font-size: 0.8em;
-    color: $rojo;
+    color: $gris_claro;
     .bread {
         padding-bottom: 0.5em;
     }

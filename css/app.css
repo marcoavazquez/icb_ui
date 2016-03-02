@@ -3131,6 +3131,7 @@ th {
 body {
   font-size: 14px;
   font-family: ubuntu;
+  background: #F3F3F3;
 }
 
 .ed-container {
@@ -3152,9 +3153,8 @@ input {
 /**
 * estilos para el encabezado */
 header {
-  background: #00e1e8;
+  background: #2E51A0;
   height: 4em;
-  box-shadow: 0px 2px 3px #999;
   margin: 0;
   padding: 0;
   z-index: 500;
@@ -3187,14 +3187,14 @@ ul li a {
 
 .cont-menu-opciones nav {
   font-size: 2em;
-  color: #ed3951;
+  color: #aab5b3;
   box-sizing: border-box;
 }
 
 .cont-bread {
   height: 100%;
   font-size: 0.8em;
-  color: #ed3951;
+  color: #aab5b3;
 }
 
 .cont-bread .bread {
@@ -3205,7 +3205,7 @@ ul li a {
 * estilos para los menues*/
 .menu-lateral {
   font-size: 0.8rem;
-  background: #ed3951;
+  background: #727B90;
   height: 100vh;
   padding: 0;
   width: 6rem;
@@ -3216,7 +3216,11 @@ ul li a {
 
 .menu-lateral nav ul .menu-l-activo {
   font-weight: bold;
-  background: #bda4a7;
+  background: #F3F3F3;
+}
+
+.menu-lateral nav ul .menu-l-activo a {
+  color: #50515c;
 }
 
 .menu-lateral nav ul li {
@@ -3233,7 +3237,7 @@ ul li a {
 }
 
 .menu-lateral nav ul li:hover {
-  background: #bda4a7;
+  background: #aab5b3;
 }
 
 /**
@@ -3249,7 +3253,7 @@ ul li a {
 
 .cont-pestanas {
   padding: 0;
-  background: #DADADA;
+  background: #DDDDDD;
   height: 2em;
   line-height: 2em;
   text-align: center;
@@ -3257,25 +3261,24 @@ ul li a {
 
 .pestana {
   color: #333;
-  background: #AAA;
+  background: #BBB;
   width: 12em;
   height: 100%;
-  border-right: 1px solid #888;
   cursor: pointer;
 }
 
 .pestana:hover {
-  background: #A5A5A5;
+  background: #CFCFCF;
 }
 
 .pest-activa {
-  background: white;
+  background: #F3F3F3;
   color: #333;
   font-weight: bold;
 }
 
 .pest-activa:hover {
-  background: white;
+  background: #F3F3F3;
 }
 
 form {

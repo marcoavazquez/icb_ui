@@ -1,6 +1,6 @@
 .menu-lateral {
     font-size: $font_size_menu_lateral;
-    background: $rojo;
+    background: $background_menu_lateral;
     height: 100vh;
     padding: 0;
     width: 6rem;
@@ -10,7 +10,11 @@
     nav ul{
         .menu-l-activo {
             font-weight: bold;
-            background: $rojo_gris;
+            background: $background_body;
+
+            a {
+                color: $gris_oscuro;
+            }
         }
         li {
 
@@ -25,7 +29,8 @@
                 width: 100%;
             }
             &:hover {
-                background: $rojo_gris;
+                background: $gris_claro;
+
             }
         }
     }
