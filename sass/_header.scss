@@ -1,6 +1,6 @@
 header {
     background: $background_menu_seccion;
-    height: 4em;
+    height: 3rem;
     margin: 0;
     padding: 0;
     z-index: 500;
@@ -30,7 +30,7 @@ ul {
 .cont-menu-opciones {
     color: $gris_claro;
     height: 100%;
-    font-size: 1.8em;
+    font-size: 1em;
     span {
         margin-left: 0.5em;
         cursor: pointer;

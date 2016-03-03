@@ -3154,7 +3154,7 @@ input {
 * estilos para el encabezado */
 header {
   background: #295278;
-  height: 4em;
+  height: 3rem;
   margin: 0;
   padding: 0;
   z-index: 500;
@@ -3184,7 +3184,7 @@ ul li a {
 .cont-menu-opciones {
   color: #aab5b3;
   height: 100%;
-  font-size: 1.8em;
+  font-size: 1em;
 }
 
 .cont-menu-opciones span {
@@ -3212,7 +3212,7 @@ ul li a {
   width: 6rem;
   position: fixed;
   left: 0;
-  margin-top: 3.5rem;
+  margin-top: 3rem;
 }
 
 .menu-lateral nav ul .menu-l-activo {
