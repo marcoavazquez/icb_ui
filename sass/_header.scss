@@ -28,11 +28,12 @@ ul {
 }
 
 .cont-menu-opciones {
+    color: $gris_claro;
     height: 100%;
-    nav {
-        font-size: 2em;
-        color: $gris_claro;
-        box-sizing: border-box;
+    font-size: 1.8em;
+    span {
+        margin-left: 0.5em;
+        cursor: pointer;
     }
 }
 .cont-bread {

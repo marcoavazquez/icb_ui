@@ -3153,7 +3153,7 @@ input {
 /**
 * estilos para el encabezado */
 header {
-  background: #2E51A0;
+  background: #295278;
   height: 4em;
   margin: 0;
   padding: 0;
@@ -3182,13 +3182,14 @@ ul li a {
 }
 
 .cont-menu-opciones {
+  color: #aab5b3;
   height: 100%;
+  font-size: 1.8em;
 }
 
-.cont-menu-opciones nav {
-  font-size: 2em;
-  color: #aab5b3;
-  box-sizing: border-box;
+.cont-menu-opciones span {
+  margin-left: 0.5em;
+  cursor: pointer;
 }
 
 .cont-bread {
