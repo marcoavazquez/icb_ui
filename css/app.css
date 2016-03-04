@@ -3156,14 +3156,25 @@ header {
   background: #295278;
   height: 3rem;
   margin: 0;
-  padding: 0;
+  padding-left: 0 !important;
   z-index: 500;
+  position: relative;
+}
+
+.cont-menu {
+  margin: 0;
 }
 
 .menu {
-  height: 100%;
-  width: 14rem;
-  font-size: 0.8em;
+  background: #1c3852;
+  width: 6rem;
+  height: 3rem;
+  cursor: pointer;
+  position: fixed;
+}
+
+.menu:hover {
+  background: #162b3f;
 }
 
 ul {
@@ -3176,30 +3187,37 @@ ul li a {
   color: white;
 }
 
+.cont-bread-notifications {
+  margin-left: 8em;
+}
+
 .cont-form-busqueda {
   height: 100%;
   width: 12em;
 }
 
-.cont-menu-opciones {
+.cont-notifications {
   color: #aab5b3;
   height: 100%;
-  font-size: 1em;
 }
 
-.cont-menu-opciones span {
+.cont-notifications span {
   margin-left: 0.5em;
   cursor: pointer;
 }
 
+.cont-notifications span:hover {
+  color: white;
+}
+
 .cont-bread {
   height: 100%;
-  font-size: 0.8em;
   color: #aab5b3;
 }
 
 .cont-bread .bread {
   padding-bottom: 0.5em;
+  cursor: pointer;
 }
 
 /**

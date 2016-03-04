@@ -2,13 +2,24 @@ header {
     background: $background_menu_seccion;
     height: 3rem;
     margin: 0;
-    padding: 0;
+    padding-left: 0 !important;
     z-index: 500;
+    position: relative;
 }
+.cont-menu {
+    margin: 0;
+}
+
+
 .menu {
-    height: 100%;
-    width: 14rem;
-    font-size: 0.8em;
+    background: darken($background_menu_seccion, 10);
+    width: 6rem;
+    height: 3rem;
+    cursor: pointer;
+    position: fixed;
+    &:hover {
+        background: darken($background_menu_seccion, 15);
+    }
 }
 
 ul {
@@ -21,26 +32,31 @@ ul {
         }
     }
 }
+.cont-bread-notifications {
+    margin-left: 8em;
+}
 
 .cont-form-busqueda{
     height: 100%;
     width: 12em;
 }
 
-.cont-menu-opciones {
+.cont-notifications {
     color: $gris_claro;
     height: 100%;
-    font-size: 1em;
     span {
         margin-left: 0.5em;
         cursor: pointer;
+        &:hover {
+            color: white;
+        }
     }
 }
 .cont-bread {
     height: 100%;
-    font-size: 0.8em;
     color: $gris_claro;
     .bread {
         padding-bottom: 0.5em;
+        cursor: pointer;
     }
 }
