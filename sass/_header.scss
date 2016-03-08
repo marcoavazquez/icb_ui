@@ -3,6 +3,7 @@ header {
     height: 3rem;
     margin: 0;
     padding-left: 0 !important;
+    padding-right: 0 !important;
     z-index: 500;
     position: relative;
 }
@@ -54,9 +55,25 @@ ul {
 }
 .cont-bread {
     height: 100%;
-    color: $gris_claro;
+    color: white;
     .bread {
-        padding-bottom: 0.5em;
+        display: inline-block;
+        padding: 0 1rem;
         cursor: pointer;
     }
+    input[type="text"] {
+        color:white;
+        background: rgba(255,255,255,0.5);
+    }
+}
+.btn-add {
+    @include button(#55CC55, white);
+    border:none;
+    margin: 0 0 0 2rem;
+    height: 2rem;
+
+}
+.cont-tools {
+    margin: 1rem 0;
+    padding: 1rem 0;
 }

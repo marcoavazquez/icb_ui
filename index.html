@@ -10,6 +10,12 @@
 </html>
 <body>
   <section class="main-content ed-container">
+    <section class="alertas ed-item"> 
+      <div class="ed-container">
+        <div class="ed-item tablet-90">ESTE ES UN MENSAJE DE ALERTA!!!!</div>
+        <div class="ed-item tablet-10 movil-main-end">X</div>
+      </div>
+    </section>
     <header class="ed-item">
       <nav class="menu ed-item tablet-cross-center">
         <ul>
@@ -19,13 +25,13 @@
       <div class="cont-menu ed-container justify">
         <div class="ed-item cont-bread-notifications">
           <div class="ed-container">
-            <div class="cont-bread ed-item tablet-cross-center tablet-70">
-              <div class="bread"><span class="bread-1">Empresa ></span><span class="sep-bread"></span><span class="bread-2">Contrato ></span><span class="sep-bread"></span><span class="bread-3">Concepto ></span>
-                <!--input(type="text", placeholder="Buscar")-->
-                
-              </div>
+            <div class="cont-bread ed-item tablet-cross-center movil-70"><span class="bread">EMPRESA</span><span class="sep-bread">></span><span class="bread">CONTRATO </span><span class="sep-bread">></span><span class="bread"><strong>CONCEPTO</strong></span><span class="sep-bread"> </span>
+              <input type="text" placeholder="Buscar" value="Buscar"/>
             </div>
-            <div class="cont-notifications ed-item tablet-cross-center tablet-main-end tablet-30"><span class="icon-email-envelope"></span><span class="icon-three-bars">       </span></div>
+            <div class="ed-item movil-20 movil-main-end movil-cross-center">
+              <button class="btn-add">+ Crear</button>
+            </div>
+            <div class="cont-notifications ed-item tablet-cross-center movil-main-end movil-10"><span class="icon-email-envelope"></span><span class="icon-three-bars">       </span></div>
           </div>
         </div>
       </div>
@@ -48,7 +54,51 @@
             <div class="pestana ed-item">USUARIO</div>
           </div>
         </div>
-        <div class="ed-item">
+        <div class="ed-item cont-item">
+          <div class="ed-container cont-tools">
+            <div class="ed-item movil-60">
+              <h3>CONCEPTO</h3>
+            </div>
+            <div class="ed-item movil-40 movil-main-end">
+              <input type="text" placeholder="Buscar" class="search"/>
+              <button class="btn-add">+ Crear</button>
+            </div>
+            <div class="ed-item head-item">
+              <div class="ed-container">
+                <div class="ed-item movil-60">
+                  <h3>CONCEPTO</h3>
+                </div>
+                <div class="ed-item movil-40 movil-main-end movil-cross-center">
+                  <input type="text" placeholder="Buscar"/>
+                  <button class="btn-add">+ Crear</button>
+                </div>
+              </div>
+            </div>
+            <div class="ed-item content-item">
+              <table> 
+                <thead>
+                  <tr>
+                    <th>Algo</th>
+                    <th>Otro Algo</th>
+                    <th>Tools</th>
+                    <th>Detalles</th>
+                    <th>Mas </th>
+                    <th>-</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Algo con max texto</td>
+                    <td>Otro Algo con mucho mas texto...</td>
+                    <td>Tools otros osf</td>
+                    <td>Marco</td>
+                    <td>Mas stssd </td>
+                    <td> <a href="#">Editar </a><a href="#">Eliminar </a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
           <form> 
             <input type="text"/>
             <input type="file"/>
