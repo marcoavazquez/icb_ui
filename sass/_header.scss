@@ -67,13 +67,7 @@ ul {
         width: 32em;
     }
 }
-.btn-add {
-    @include button(#55CC55, white);
-    border:none;
-    margin: 0 0 0 2rem;
-    height: 2rem;
 
-}
 .cont-tools {
     margin: 1rem 0;
     padding: 1rem 0;

@@ -2667,62 +2667,6 @@ class="no-padding" a la caja le da padding cero solo a ella
   }
 }
 
-.boton, .button, button {
-  display: inline-block;
-  line-height: 2.5em;
-  background: #ddd;
-  color: #333;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-}
-
-.boton:hover, .button:hover, button:hover {
-  background: #d0d0d0;
-}
-
-.boton:active, .button:active, button:active {
-  transform: scale(0.97);
-}
-
-.boton.round, .button.round, button.round {
-  display: inline-block;
-  line-height: 2.5em;
-  background: #ddd;
-  color: #333;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border-radius: 1.25em;
-}
-
-.boton.round:hover, .button.round:hover, button.round:hover {
-  background: #d0d0d0;
-}
-
-.boton.round:active, .button.round:active, button.round:active {
-  transform: scale(0.97);
-}
-
-.boton.radius, .button.radius, button.radius {
-  display: inline-block;
-  line-height: 2.5em;
-  background: #ddd;
-  color: #333;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border-radius: 1.25em;
-}
-
-.boton.radius:hover, .button.radius:hover, button.radius:hover {
-  background: #d0d0d0;
-}
-
-.boton.radius:active, .button.radius:active, button.radius:active {
-  transform: scale(0.97);
-}
-
 /**
 
 
@@ -3131,18 +3075,11 @@ th {
 body {
   font-size: 14px;
   font-family: ubuntu;
-  background: #E6E6E6;
+  background: #FFFFFF;
 }
 
 .ed-container {
   max-width: 2100px;
-}
-
-input {
-  border: none;
-  border: 1px solid #AAA;
-  padding-left: 1em;
-  line-height: 2em;
 }
 
 .content {
@@ -3228,27 +3165,6 @@ ul li a {
   width: 32em;
 }
 
-.btn-add {
-  display: inline-block;
-  line-height: 2.5em;
-  background: #55CC55;
-  color: white;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border: none;
-  margin: 0 0 0 2rem;
-  height: 2rem;
-}
-
-.btn-add:hover {
-  background: #41c641;
-}
-
-.btn-add:active {
-  transform: scale(0.97);
-}
-
 .cont-tools {
   margin: 1rem 0;
   padding: 1rem 0;
@@ -3269,7 +3185,7 @@ ul li a {
 
 .menu-lateral nav ul .menu-l-activo {
   font-weight: bold;
-  background: #E6E6E6;
+  background: #FFFFFF;
 }
 
 .menu-lateral nav ul .menu-l-activo a {
@@ -3349,65 +3265,6 @@ form {
   padding: 1em;
 }
 
-.btn-principal {
-  border: none;
-  display: inline-block;
-  line-height: 2.5em;
-  background: #00AA00;
-  color: white;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border-radius: .25em;
-}
-
-.btn-principal:hover {
-  background: #009000;
-}
-
-.btn-principal:active {
-  transform: scale(0.97);
-}
-
-.btn-danger {
-  border: none;
-  display: inline-block;
-  line-height: 2.5em;
-  background: #AA0000;
-  color: white;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border-radius: .25em;
-}
-
-.btn-danger:hover {
-  background: #900000;
-}
-
-.btn-danger:active {
-  transform: scale(0.97);
-}
-
-.btn-accion {
-  display: inline-block;
-  line-height: 2.5em;
-  background: #5555AA;
-  color: white;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border-radius: .25em;
-}
-
-.btn-accion:hover {
-  background: #4d4d99;
-}
-
-.btn-accion:active {
-  transform: scale(0.97);
-}
-
 input[type="file"] {
   width: 8rem;
   display: inline-block;
@@ -3416,26 +3273,10 @@ input[type="file"] {
 }
 
 input[type="file"]:before {
-  display: inline-block;
-  line-height: 2.5em;
-  background: #AA5500;
-  color: white;
-  padding: 0 1.5em;
-  cursor: pointer;
-  margin-bottom: 1em;
-  border-radius: .25em;
   content: 'upload';
   position: absolute;
   width: 100%;
   left: 0;
-}
-
-input[type="file"]:before:hover {
-  background: #904800;
-}
-
-input[type="file"]:before:active {
-  transform: scale(0.97);
 }
 
 .search {
@@ -3479,6 +3320,84 @@ thead {
 
 th, td {
   padding: 0.5rem 1rem;
+}
+
+.item-ctrl {
+  margin-top: 1em;
+}
+
+.btn {
+  color: #333;
+  background: #DDD;
+  border: 1px solid #AAA;
+  border-radius: 3px;
+  line-height: 1.8em;
+  padding: 0 0.8em;
+  box-shadow: 1px 1px 2px #AAA;
+  font-size: 0.8em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 3px #999;
+}
+
+.btn:active {
+  border: 1px solid transparent;
+  box-shadow: 0 0 1px #AAA;
+}
+
+.btn-add {
+  color: white;
+  background: green;
+  border: 1px solid #004d00;
+  padding: 0 2em 0 1em;
+}
+
+.btn-danger {
+  color: white;
+  background: red;
+  border: 1px solid #cc0000;
+}
+
+.btn-warning {
+  background: yellow;
+  border: 1px solid #cccc00;
+}
+
+.btn-small {
+  font-size: 0.6em;
+  padding: 0 0.5em;
+}
+
+.btn-main {
+  color: white;
+  background: #727B90;
+  border: 1px solid #5b6374;
+}
+
+.btn-add-small {
+  display: initial;
+  font-size: 1em;
+  color: white;
+  background-color: green;
+  border: 1px solid #004d00;
+  padding: 0.1em 0.2em;
+}
+
+.btn-delete-small {
+  display: initial;
+  font-size: 1.2em;
+  color: white;
+  background-color: red;
+  border: 1px solid #cc0000;
+  padding: 0em;
+}
+
+.btn-file {
+  width: 2em;
+  height: 2em;
 }
 
 /**

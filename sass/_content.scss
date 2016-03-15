@@ -48,20 +48,6 @@ form {
     padding: 1em;
 }
 
-.btn-principal {
-    border:none;
-    @include button(#00AA00, white, radius);
-}
-
-.btn-danger {
-    border:none;
-    @include button(#AA0000, white, radius);
-}
-
-.btn-accion {
-    @include button(#5555AA, white, radius);
-}
-
 input[type="file"] {
     width: 8rem;
     display: inline-block;
@@ -69,7 +55,7 @@ input[type="file"] {
     border: none;
     &:before {
 
-        @include button(#AA5500, white, radius);
+
         content: 'upload';
         position: absolute;
         width: 100%;
@@ -113,4 +99,73 @@ thead {
 }
 th, td {
     padding: 0.5rem 1rem;
+}
+.item-ctrl {
+    margin-top: 1em;
+}
+
+.btn {
+    color: #333;
+    background: #DDD;
+    border:1px solid #AAA;
+    border-radius: 3px;
+    line-height: 1.8em;
+    padding: 0 0.8em;
+    box-shadow: 1px 1px 2px #AAA;
+    font-size: 0.8em;
+    font-weight: bold;
+    display: inline-block;
+    &:hover {
+        box-shadow: 1px 1px 3px #999;
+    }
+    &:active {
+        border: 1px solid transparent;
+        box-shadow: 0 0 1px #AAA;
+    }
+}
+
+.btn-add {
+    color: white;
+    background: green;
+    border: 1px solid darken(green, 10);
+    padding: 0 2em 0 1em;
+}
+
+.btn-danger {
+    color: white;
+    background: red;
+    border: 1px solid darken(red, 10);
+}
+.btn-warning {
+    background: yellow;
+    border: 1px solid darken(yellow, 10);
+}
+.btn-small {
+    font-size: 0.6em;
+    padding: 0 0.5em;
+}
+.btn-main {
+    color: white;
+    background: $background_menu_lateral;
+    border:1px solid darken($background_menu_lateral, 10);
+}
+.btn-add-small {
+    display: initial;
+    font-size: 1em;
+    color:white;
+    background-color: green;
+    border: 1px solid darken(green, 10);
+    padding: 0.1em 0.2em;
+}
+.btn-delete-small {
+    display: initial;
+    font-size: 1.2em;
+    color:white;
+    background-color: red;
+    border: 1px solid darken(red, 10);
+    padding: 0em;
+}
+.btn-file {
+    width: 2em;
+    height: 2em;
 }
