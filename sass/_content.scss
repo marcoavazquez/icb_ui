@@ -2,17 +2,24 @@
     margin: 0 auto;
     padding: 1em;
     width: 80%;
+    transition: 0.5s all;
     min-width: 12em;
 }
 
 .item {
+    transition: 0.1s all;
     background: #888;
     color: white;
     padding: 1em;
     cursor: pointer;
+    &:hover {
+        background: #777;
+    }
 }
 
 .cont-item {
+    transition: 0.1s all;
     padding: 1em;
     border: 1px solid #AAA;
+
 }

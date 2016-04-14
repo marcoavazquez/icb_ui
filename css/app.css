@@ -3077,6 +3077,19 @@ body {
   background: #FAFAFA;
 }
 
+.oculto {
+  height: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  color: transparent;
+  transition: 1s all;
+  overflow: hidden;
+}
+
+.visible {
+  display: initial;
+}
+
 /**
 * estilos para el encabezado */
 /**
@@ -3087,17 +3100,24 @@ body {
   margin: 0 auto;
   padding: 1em;
   width: 80%;
+  transition: 0.5s all;
   min-width: 12em;
 }
 
 .item {
+  transition: 0.1s all;
   background: #888;
   color: white;
   padding: 1em;
   cursor: pointer;
 }
 
+.item:hover {
+  background: #777;
+}
+
 .cont-item {
+  transition: 0.1s all;
   padding: 1em;
   border: 1px solid #AAA;
 }

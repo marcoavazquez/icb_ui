@@ -1,12 +1,11 @@
+function acordeon(event) {
 
-var inputs_file = document.getElementsByClassName('btn-file');
+    if (event.target.nextElementSibling.classList.contains('cont-item')) {
 
-for (input in inputs_file) {
 
-    var file_name = document.getElementById('file_name');
+        event.target.nextElementSibling.classList.toggle('oculto');
 
-    inputs_file[input].onchange = function() {
-
-        document.getElementById('file_name').textContent = this.value;
     }
 }
+
+document.querySelector(window.location.hash).nextElementSibling.classList.remove('oculto');
